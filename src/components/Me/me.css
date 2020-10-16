@@ -1,0 +1,51 @@
+.container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 h2,
+.container2 h3 {
+  text-align: left;
+}
+
+.sobremim {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.sobremim p {
+  text-align: justify;
+}
+
+.texto {
+  font-weight: 200;
+  line-height: 25px;
+  max-width: 583px;
+  align-self: center;
+}
+
+.texto h2 {
+  font-size: 35px;
+}
+
+p {
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.menuimg {
+  margin: 75px 0 50px 40px;
+}
+
+.menuimg img {
+  filter: grayscale(100%);
+  max-width: 100%;
+}

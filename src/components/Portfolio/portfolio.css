@@ -1,0 +1,47 @@
+.title {
+  font-size: 35px;
+  margin-top: 15px;
+  float: left;
+  margin-left: 150px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 150px;
+  margin-left: 140px;
+}
+
+.title h2 {
+  padding-top: 30px;
+}
+
+.projeto h3 {
+  font-size: 20px;
+  text-align: left;
+}
+
+.projeto p {
+  margin-top: 20px;
+  font-weight: 200;
+  line-height: 25px;
+  width: 280px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+.imgproj {
+  display: flex;
+  overflow-x: auto;
+  max-width: 920px;
+}
+
+.imgproj img {
+  width: 450px;
+  border: 1px solid lightgray;
+  margin-right: 15px;
+}
+
+.imgproj img:hover {
+  opacity: 0.5;
+}
